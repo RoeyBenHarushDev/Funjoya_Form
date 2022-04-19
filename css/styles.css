@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", David;
+  text-align: center;
+  background-image: linear-gradient(to right top, #f41ee2, #f23fe0, #f054dd, #ee65db, #eb74d9, #d88ced, #c6a1f9, #b8b2ff, #a2cbff, #a9defc, #c7ecf4, #edf6f5);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", David;
+  font-weight: 900;
+}
+.firstHeader{
+  position: absolute;
+  float: left;
+}
+.secondHeader{
+  margin-bottom: 90px;
+  margin-left: 12px;
+}
+.secondHeader h1{
+  position: absolute;
+  text-align: left;
+  color: rgb(171, 50, 204);
+  font-size: 28px;
+}
+
+.submit-button-color {
+  background-color: rgb(183, 4, 254);
+  border: 0px;
+}
+.submit-button-color:hover {
+  background-color: rgba(171, 50, 204, 0.747);
+  border: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 2% 22%;
+}
+
+/* forms */
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 2.3%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circles .penis{
+    position: absolute;
+    display: block;
+    list-style: none;
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles .penis:nth-child(1){
+    left: 25%;
+    width: 140px;
+    height: 140px;
+    animation-delay: 1s;
+}
+
+
+.circles .penis:nth-child(2){
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 1s;
+    animation-duration: 12s;
+}
+
+.circles .penis:nth-child(3){
+    left: 70%;
+    width: 90px;
+    height: 90px;
+    animation-delay: 1s;
+}
+
+.circles .penis:nth-child(4){
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 1s;
+    animation-duration: 18s;
+}
+
+.circles .penis:nth-child(5){
+    left: 65%;
+    width: 120px;
+    height: 120px;
+    animation-delay: 1s;
+}
+
+.circles .penis:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 1s;
+}
+
+.circles .penis:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 1s;
+}
+
+.circles .penis:nth-child(8){
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 1s;
+    animation-duration: 45s;
+}
+
+.circles .penis:nth-child(9){
+    left: 20%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 1s;
+    animation-duration: 35s;
+}
+
+.circles .penis:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 1s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+
